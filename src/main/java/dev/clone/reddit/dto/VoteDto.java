@@ -1,0 +1,15 @@
+package dev.clone.reddit.dto;
+
+import dev.clone.reddit.model.VoteType;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+public class VoteDto {
+
+    private VoteType voteType;
+    private Long postId;
+}
